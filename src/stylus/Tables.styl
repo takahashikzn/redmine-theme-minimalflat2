@@ -4,6 +4,8 @@
 
 table.list {
   border 1px solid color_gray_light_a
+  border-left none
+  border-right none
   border-collapse collapse
   width 100%
   margin-bottom 4px
@@ -19,7 +21,6 @@ table.list {
   }
 
   td {
-    border-bottom 1px dotted #E0E0E0
     text-align center
     vertical-align middle
     padding .3em
@@ -941,6 +942,10 @@ div.issue {
 
 #issue_tree table.issues, #relations table.issues {
   border 0
+
+  td {
+    border-bottom 1px dotted #E0E0E0
+  }
 }
 
 #issue_tree td.checkbox, #relations td.checkbox {
