@@ -103,5 +103,6 @@
 
     $('.toggle-all').text('fold/expand');
     $("#footer div:contains('Powered by') a").attr('target', '_redmine_official');
+    $(".issue .issue:has(.issue.closed)").fadeTo('medium', 0.2);
   } );
 } )( window.jQuery );
