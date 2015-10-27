@@ -100,5 +100,8 @@
   $( document ).ready( function() {
     setupIcon();
     setupProjectTreeView();
+
+    $('.toggle-all').text('fold/expand');
+    $("#footer div:contains('Powered by') a").attr('target', '_redmine_official');
   } );
 } )( window.jQuery );
