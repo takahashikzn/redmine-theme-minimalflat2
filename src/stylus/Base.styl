@@ -34,6 +34,15 @@ h4, .wiki h3 {
   font-size 1.3em
 }
 
+p {
+  margin 1em
+  line-height 1.5em
+}
+
+li {
+  line-height 1.5em
+}
+
 pre, code {
   font-family monospace
 }
@@ -51,28 +60,28 @@ a {
     border 0
   }
 
-  .issue.closed, .issue.closed:link, .issue.closed:visited {
+  &.issue.closed, &.issue.closed:link, &.issue.closed:visited {
     color color_gray
     text-decoration line-through
   }
 
-  .project.closed, .project.closed:link, .project.closed:visited {
+  &.project.closed, &.project.closed:link, &.project.closed:visited {
     color color_gray
   }
 
-  .user.locked, .user.locked:link, .user.locked:visited {
+  &.user.locked, &.user.locked:link, &.user.locked:visited {
     color color_gray
   }
 
-  .collapsible:before {
+  &.collapsible:before {
     icon( icon_toggle_plus, color_gray )
   }
 
-  .collapsible.collapsed {
+  &.collapsible.collapsed {
     icon( icon_toggle_minus, color_gray )
   }
 
-  #toggle-completed-versions {
+  &#toggle-completed-versions {
     color color_gray
   }
 }
@@ -201,6 +210,7 @@ table.progress {
   text-align center
   float left
   margin 1px 6px 1px 0
+  width 80px
 
   td {
     height 1em
