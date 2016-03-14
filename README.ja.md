@@ -2,7 +2,31 @@
 
 簡素でフラットな外観の Redmine テーマです。
 
+## スクリーンショット
+
+### Projects
+
 ![Projects](ss.png)
+
+### Editor
+
+![Editor](ss2.png)
+
+### Issue
+
+![Issue](ss3.png)
+
+### Settings
+
+![Settings](ss4.png)
+
+### For mobile
+
+![For mobile](ss5.png)
+
+### Menu
+
+![Menu](ss6.png)
 
 # 機能
 
@@ -14,10 +38,11 @@
  * [IcoMoon](https://icomoon.io/)
 * 開閉可能なプロジェクト一覧画面
 * Favicon 対応 ( Redmine 2.5 以降 )
+* Responsive 対応 ( Redmine 3.2 以降 )
 
 # インストール方法
 
-1. [release page](https://github.com/akabekobeko/redmine-theme-minimalflat2/releases) から ZIP ファイルをダウンロード 
+1. [release page](https://github.com/akabekobeko/redmine-theme-minimalflat2/releases) から ZIP ファイルをダウンロード
 2. ZIP ファイルを展開し、Redmine ディレクトリ内の `public/themes/minimalflat2` に配置
 3. Redmine から **管理 > 設定 > 表示** へアクセス
 4. **テーマ** から **minimalflat2** を選択して設定を保存

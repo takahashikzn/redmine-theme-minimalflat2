@@ -2,7 +2,31 @@
 
 Minimal and flat design theme for Redmine.
 
+## Screenshot
+
+### Projects
+
 ![Projects](ss.png)
+
+### Editor
+
+![Editor](ss2.png)
+
+### Issue
+
+![Issue](ss3.png)
+
+### Settings
+
+![Settings](ss4.png)
+
+### For mobile
+
+![For mobile](ss5.png)
+
+### Menu
+
+![Menu](ss6.png)
 
 # Feature
 
@@ -11,6 +35,7 @@ Minimal and flat design theme for Redmine.
 * Flexible ( resolution-independent ) icon by [IcoMoon](https://icomoon.io/)
 * Expandable tree view of the project list
 * Favicon ( Redmine 2.5 or later )
+* Responsive layout ( Redmine 3.2 or later )
 
 # Installation
 

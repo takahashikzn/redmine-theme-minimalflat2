@@ -5,6 +5,10 @@
 .wiki {
   padding 0 .5em 1em
 
+  &.wiki-page {
+    border-bottom solid 1px color_gray_light_a
+  }
+
   &.description {
     padding 0
 
@@ -104,6 +108,10 @@
     icon( icon_external, color_gray )
   }
 
+  p {
+    margin 1em
+  }
+
   a {
     word-wrap break-word
 
@@ -128,7 +136,7 @@
 
 // Table
 div.wiki table {
-  margin-bottom 1em
+  margin 1em
   border-collapse collapse
   border 1px solid color_gray
 
@@ -163,8 +171,10 @@ h1:hover a.wiki-anchor, h2:hover a.wiki-anchor, h3:hover a.wiki-anchor {
 }
 
 div.wiki img {
+  display block
+  margin auto
+  max-width 90%
   vertical-align middle
-  max-width 100%
 }
 
 #attach_files_link:before {

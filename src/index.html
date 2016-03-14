@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-  <meta charset="utf-8">
-  <title>Overview - redmine-theme-minimalflat2 - Redmine</title>
+  <meta charset="UTF-8">
+  <title>minimalflat2</title>
   <link rel="shortcut icon" href="favicon/favicon.ico">
   <link rel="stylesheet" media="all" href="stylesheets/application.css">
   <link rel="stylesheet" media="all" href="stylesheets/responsive.css">
@@ -12,7 +11,7 @@
   <script src="javascripts/responsive.js"></script>
   <script src="javascripts/theme.js"></script>
 </head>
-<body class="theme-Minimalflat2 project-redmine-theme-minimalflat2 controller-projects action-show">
+<body>
 <div id="wrapper">
   <div class="flyout-menu js-flyout-menu">
     <div class="flyout-menu__search">
@@ -42,7 +41,7 @@
           <li><a class="logout" rel="nofollow" data-method="post" href="logout">Sign out</a></li>
         </ul>
       </span>
-  </div>
+    </div>
 <div id="wrapper2">
 <div id="wrapper3">
   <div id="top-menu">
@@ -50,12 +49,11 @@
     </div>
     <div id="loggedas">Logged in as <a class="user active" href="./users/1">admin</a></div>
   </div>
-
 <div id="header">
   <a href="#" class="mobile-toggle-button js-flyout-menu-toggle-button"></a>
     <div id="quick-search">
         <form action="/projects/redmine-theme-minimalflat2/search" accept-charset="UTF-8" method="get"><input name="utf8" value="✓" type="hidden">
-
+        <input name="wiki_pages" value="1" type="hidden">
         <label for="q">
           <a accesskey="4" href="./projects/redmine-theme-minimalflat2/search">Search</a>:
         </label>
@@ -66,7 +64,7 @@
     <h1>redmine-theme-minimalflat2</h1>
 
     <div id="main-menu">
-        <ul><li><a class="overview selected" href="./projects/redmine-theme-minimalflat2">Overview</a></li>
+        <ul><li><a class="overview" href="./projects/redmine-theme-minimalflat2">Overview</a></li>
 <li><a class="activity" href="./projects/redmine-theme-minimalflat2/activity">Activity</a></li>
 <li><a class="issues" href="./projects/redmine-theme-minimalflat2/issues">Issues</a></li>
 <li><a accesskey="7" class="new-issue" href="./projects/redmine-theme-minimalflat2/issues/new">New issue</a></li>
@@ -74,92 +72,32 @@
 <li><a class="calendar" href="./projects/redmine-theme-minimalflat2/issues/calendar">Calendar</a></li>
 <li><a class="news" href="./projects/redmine-theme-minimalflat2/news">News</a></li>
 <li><a class="documents" href="./projects/redmine-theme-minimalflat2/documents">Documents</a></li>
-<li><a class="wiki" href="./projects/redmine-theme-minimalflat2/wiki">Wiki</a></li>
+<li><a class="wiki selected" href="./projects/redmine-theme-minimalflat2/wiki">Wiki</a></li>
 <li><a class="files" href="./projects/redmine-theme-minimalflat2/files">Files</a></li>
 <li><a class="settings" href="./projects/redmine-theme-minimalflat2/settings">Settings</a></li></ul>
     </div>
 </div>
-
-<div id="main" class="">
-    <div id="sidebar">
-            <h3>Spent time</h3>
-  <p><span class="icon icon-time">0.00 hour</span></p>
-  <p>
-    <a href="./projects/redmine-theme-minimalflat2/time_entries/new">Log time</a> |
-  <a href="./projects/redmine-theme-minimalflat2/time_entries">Details</a> |
-  <a href="./projects/redmine-theme-minimalflat2/time_entries/report">Report</a>
-  </p>
-
-
-
-
-    </div>
-
-    <div id="content">
-
-        <div class="contextual">
-    <a class="icon icon-add" href="./projects/new?parent_id=redmine-theme-minimalflat2">New subproject</a>
-      <a data-confirm="Are you sure?" class="icon icon-lock" rel="nofollow" data-method="post" href="./projects/redmine-theme-minimalflat2/close">Close</a>
-</div>
-
-<h2>Overview</h2>
-
-
-<div class="splitcontentleft">
-  <div class="wiki">
-    <p>Minimal and flat design theme for Redmine.</p>
-  </div>
+<div class="wiki">
   <ul>
+    <li><a href="./activity.html" target="_blank">Activity</a></li>
+    <li><a href="./administration.html" target="_blank">Administration</a></li>
+    <li><a href="./calendar.html" target="_blank">Calendar</a></li>
+    <li><a href="./diff.html" target="_blank">Diff</a></li>
+    <li><a href="./gantt.html" target="_blank">Gantt</a></li>
+    <li><a href="./issue.html" target="_blank">Issue</a></li>
+    <li><a href="./issues.html" target="_blank">Issues</a></li>
+    <li><a href="./login.html" target="_blank">Login</a></li>
+    <li><a href="./overview.html" target="_blank">Overview</a></li>
+    <li><a href="./projects.html" target="_blank">Projects</a></li>
+    <li><a href="./repository.html" target="_blank">Repository</a></li>
+    <li><a href="./settings.html" target="_blank">Settings</a></li>
+    <li><a href="./revisions.html" target="_blank">Revisions</a></li>
+    <li><a href="./syntaxhighlight.html" target="_blank">Syntaxhighlight</a></li>
+    <li><a href="./wiki.html" target="_blank">Wiki</a></li>
   </ul>
-
-  <div class="issues box">
-    <h3>Issue tracking</h3>
-    <ul>
-      <li><a href="./projects/redmine-theme-minimalflat2/issues?set_filter=1&amp;tracker_id=1">Bug</a>:
-          1 open / 1
-      </li>
-      <li><a href="./projects/redmine-theme-minimalflat2/issues?set_filter=1&amp;tracker_id=2">Feature</a>:
-          1 open / 1
-      </li>
-      <li><a href="./projects/redmine-theme-minimalflat2/issues?set_filter=1&amp;tracker_id=3">Support</a>:
-          0 open / 0
-      </li>
-    </ul>
-    <p>
-      <a href="./projects/redmine-theme-minimalflat2/issues?set_filter=1">View all issues</a>
-        | <a href="./projects/redmine-theme-minimalflat2/issues/calendar">Calendar</a>
-        | <a href="./projects/redmine-theme-minimalflat2/issues/gantt">Gantt</a>
-    </p>
-  </div>
-
-</div>
-
-<div class="splitcontentright">
-
-
-
-</div>
-
-
-
-
-
-        <div style="clear:both;"></div>
-    </div>
-</div>
-</div>
-
-<div id="ajax-indicator" style="display:none;"><span>Loading...</span></div>
-<div id="ajax-modal" style="display:none;"></div>
-
-<div id="footer">
-  <div class="bgl"><div class="bgr">
-    Powered by <a href="http://www.redmine.org/">Redmine</a> © 2006-2015 Jean-Philippe Lang
-  </div></div>
 </div>
 </div>
 </div>
-
-
-
-</body></html>
+</div>
+</body>
+</html>
