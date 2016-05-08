@@ -2,6 +2,14 @@
 
 @import "./common/Color.styl"
 
+.icon-only {
+  color: transparent;
+
+  &:hover{
+    color: transparent;
+  }
+}
+
 .icon-add:before {
   icon( icon_add, color_green )
 }
@@ -22,16 +30,8 @@
   icon( icon_trash, color_gray )
 }
 
-.icon-only {
-  color: transparent;
-
-  &:hover{
-    color: transparent;
-  }
-
-  &[data-method=delete]:before {
-    icon( icon_trash, color_gray )
-  }
+.icon-link-break:before {
+  icon( icon_trash, color_gray )
 }
 
 .icon-move:before {
