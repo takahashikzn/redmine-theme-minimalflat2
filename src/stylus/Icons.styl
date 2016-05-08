@@ -22,8 +22,16 @@
   icon( icon_trash, color_gray )
 }
 
-.icon-only[data-method=delete]:before {
-  icon( icon_trash, color_gray )
+.icon-only {
+  color: transparent;
+
+  &:hover{
+    color: transparent;
+  }
+
+  &[data-method=delete]:before {
+    icon( icon_trash, color_gray )
+  }
 }
 
 .icon-move:before {
