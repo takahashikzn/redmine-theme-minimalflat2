@@ -96,7 +96,7 @@
 
 // Header
 #header {
-  min-height 8em
+  min-height 5em
   margin 0
   background-color color_indigo
   color color_white
@@ -138,7 +138,6 @@
 // Main menu
 #main-menu {
   position absolute
-  bottom 0
   width 100%
   background-color color_indigo_light
   font-size .8em
@@ -146,11 +145,11 @@
   ul {
     margin 0
     padding 0
+    list-style-type none
   }
 
   li {
     float left
-    list-style-type none
     white-space nowrap
 
     a {
@@ -170,6 +169,13 @@
         border-top solid 2px color_red
         color color_white
       }
+    }
+  }
+
+  .menu-children {
+    display: none
+    &.visible {
+      display: inherit
     }
   }
 }
