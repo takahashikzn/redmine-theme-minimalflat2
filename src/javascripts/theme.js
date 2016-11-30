@@ -75,5 +75,15 @@
         function() { $(this).css('opacity', 1); },
         function() { $(this).css('opacity', 0.2); }
     );
+
+    function setupToggleMenu() {
+        if ($('#main-menu .menu-children').is('.visible')) {
+            $('#content').css('margin-top', '40px');
+        } else {
+            $('#content').css('margin-top', '0px');
+        }
+    }
+    setupToggleMenu();
+    $("#new-object").click(setupToggleMenu);
   } );
 } )( window.jQuery );
