@@ -423,6 +423,10 @@ tr.open span.expander:before {
 tr.changeset {
   height 20px
 
+  &:nth-child(odd) {
+    background-color #f6f7f8
+  }
+
   ul, ol {
     margin-top 0
     margin-bottom 0
@@ -1130,6 +1134,10 @@ div#issue-changesets {
   div.changeset {
     padding 4px
     border-bottom 1px solid #ddd
+    
+    &:nth-child(odd) {
+      background-color #f6f7f8
+    }
   }
 
   p {
